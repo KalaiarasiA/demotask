@@ -1,0 +1,25 @@
+foo
+foofoo
+foo == bar
+{
+  "type": "Chunk",
+  "body": [
+    {
+      "type": "AssignmentStatement",
+      "variables": [
+        {
+          "type": "Identifier",
+          "name": "foo"
+        }
+      ],
+      "init": [
+        {
+          "type": "StringLiteral",
+          "value": "bar",
+          "raw": "\"bar\""
+        }
+      ]
+    }
+  ],
+  "comments": []
+}
